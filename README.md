@@ -4,6 +4,7 @@ This python script makes use of the inbuilt motion detector algorithm provided b
 
 # Dependencies
 OpenCV-Python == 4.7.0
+
 Numpy == 1.23.5
 
 # Parametres
