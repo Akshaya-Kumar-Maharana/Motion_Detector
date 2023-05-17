@@ -37,7 +37,6 @@ for files in os.listdir(dirname):
     for j in range(0, frame.shape[0], grid_size):
         cv2.rectangle(frame, (0, j), (frame.shape[1], j+grid_size), color, thickness)
     
-
     if len(roi) < 2:
         cv2.imshow("fg_mask", fg_mask)
     elif len(roi) == 2:
